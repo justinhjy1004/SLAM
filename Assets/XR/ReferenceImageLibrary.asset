@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: Unity.XR.ARSubsystems::UnityEngine.XR.ARSubsystems.XRReferenceImageLibrary
+  m_GuidLow: 4744414092145869499
+  m_GuidHigh: 16912338926691046067
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5328338216202187432
+      m_GuidHigh: 17454934806374108348
+    m_SerializedTextureGuid:
+      m_GuidLow: 7961557982663508027
+      m_GuidHigh: 4802084667281846570
+    m_Size: {x: 0.2, y: 0.2832967}
+    m_SpecifySize: 1
+    m_Name: lamparaMarker
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5337608378110158259
+      m_GuidHigh: 10230423776290699143
+    m_SerializedTextureGuid:
+      m_GuidLow: 17240779724503744861
+      m_GuidHigh: 10358862767672440426
+    m_Size: {x: 0.26, y: 0.3186751}
+    m_SpecifySize: 1
+    m_Name: sofaMarker
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5604347536392965892
+      m_GuidHigh: 8284433259707118748
+    m_SerializedTextureGuid:
+      m_GuidLow: 15692189996874478416
+      m_GuidHigh: 3730565873294935529
+    m_Size: {x: 0.127, y: 0.12768097}
+    m_SpecifySize: 1
+    m_Name: gabineteMarker
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5174331670746268964
+      m_GuidHigh: 12994330499331227777
+    m_SerializedTextureGuid:
+      m_GuidLow: 1640382796740242795
+      m_GuidHigh: 17086908232256022122
+    m_Size: {x: 0.127, y: 0.12768097}
+    m_SpecifySize: 1
+    m_Name: chairMarker
+    m_Texture: {fileID: 0}
