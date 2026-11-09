@@ -633,7 +633,7 @@ GameObject:
   - component: {fileID: 1195690841}
   - component: {fileID: 1195690845}
   - component: {fileID: 1195690844}
-  - component: {fileID: 1195690843}
+  - component: {fileID: 1195690846}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -674,22 +674,6 @@ Transform:
   - {fileID: 321051819}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1195690843
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1195690839}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02524d87a28969a7f84de46e21ad8406, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AnchorModel2Marc2
-  sofaPrefab: {fileID: 2965305436933514253, guid: c832f07a9e0fe9fc5814e393a2a2dd9f, type: 3}
-  lamparaPrefab: {fileID: 919132149155446097, guid: f2e9a0131ec14789895b5c8ecc8a3d5c, type: 3}
-  gabinetePrefab: {fileID: 1078374665824587920, guid: 40e0a96d0a600e1cb92b9d849cfd0c3f, type: 3}
-  chairPrefab: {fileID: 2545551500062202248, guid: a92d94ff404b63891a51d3cb8e57c236, type: 3}
 --- !u!114 &1195690844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -724,6 +708,22 @@ MonoBehaviour:
   m_SerializedLibrary: {fileID: 11400000, guid: 4ef46779705b8228fab274cd971d24f7, type: 2}
   m_MaxNumberOfMovingImages: 2
   m_TrackedImagePrefab: {fileID: 0}
+--- !u!114 &1195690846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195690839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f11045564dc1aee87b3f82746ee609d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AncorModelInteractive
+  sofaPrefab: {fileID: 2965305436933514253, guid: c832f07a9e0fe9fc5814e393a2a2dd9f, type: 3}
+  lamparaPrefab: {fileID: 6823893450079424690, guid: a4ab4b02401dbd911bb0cf2a54340352, type: 3}
+  gabinetePrefab: {fileID: 1078374665824587920, guid: 40e0a96d0a600e1cb92b9d849cfd0c3f, type: 3}
+  chairPrefab: {fileID: 2545551500062202248, guid: a92d94ff404b63891a51d3cb8e57c236, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
